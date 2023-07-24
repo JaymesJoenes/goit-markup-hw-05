@@ -627,7 +627,7 @@ img {
   outline: transparent;
   font-weight: 400;
   font-size: 12px;
-  font-family: Roboto;
+
   line-height: 2; /* 200% */
   letter-spacing: 0.48px;
 }
@@ -644,6 +644,8 @@ img {
 .subscription-btn {
   display: flex;
   gap: 16px;
+  min-width: 165px;
+  height: 40px;
   padding: 8px 24px;
   border: none;
   border-radius: 4px;
