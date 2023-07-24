@@ -760,7 +760,6 @@ img {
 }
 
 .modal-form-point {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -797,9 +796,14 @@ img {
   fill: var(--iris);
 }
 
+.modal-form-input-div {
+  position: relative;
+}
+
 .modal-form-icon {
   position: absolute;
-  bottom: 8px;
+  top: 50%;
+  transform: translateY(-50%);
   left: 16px;
   fill: var(--navy-blue);
   transition: fill var(--anim);
@@ -884,7 +888,7 @@ img {
 
 .modal-form-submit {
   display: block;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 0 auto;
   padding: 16px 32px;
